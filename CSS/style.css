@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+body{
+    height: 1600px;
+    background-color: #e1e6f6;
+    text-transform: capitalize;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(../PIC/stars1.webp);
+    background-size: cover;
+    background-position: center;
+    margin:0;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    text-shadow: 2px 0px 5px rgb(0, 0, 255);
+    font-size: 50px;
+    font-family:cursive;
+}
+.parent{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.item , .front , .back{
+    width: 100%;
+    height: 350px;
+
+}
+.back{
+    background-color: rgb(18, 79, 120);
+    width: 100%;
+    z-index: 0;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255) inset;
+
+}
+.back h3{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px black;
+}
+.back p{
+    padding-top: 30px;
+    color: #e1e6f6;
+    text-align: center;
+    font-size: 18px;
+    line-height: 23px;
+}
+.back button{
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: 110px;
+    margin-top: 25px;
+    font-size: 20px;
+    color: rgb(18, 79, 120) ;
+    box-shadow: 0px 0px 10px black;
+    z-index: 10;
+    cursor: pointer;
+}
+.item{
+    width: 30%;
+    position: relative;
+    transition: 2s;
+    transform-style: preserve-3d;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 35px;
+}
+.tt{
+    margin-right: 0;
+}
+.front , .back{
+    position: absolute;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+.front{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(../PIC/pyramids-with-word-im-it_1276068-13039\ \(1\).avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0) ;
+}
+.f2{
+    background-image: url(../PIC/pexels-photo-1287827.jpeg);
+}
+.f3{
+    background-image: url(../PIC/Statue\ of\ Liberty.jpeg);
+}
+.f4{
+    background-image: url(../PIC/Colosseum.jpeg);
+}
+.f5{
+    background-image: url(../PIC/Machu\ Picchu2.avif);
+}
+.f6{
+    background-image: url(../PIC/Petra.jpg);
+}
+.f7{
+    background-image: url(../PIC/Mount\ Fuji.jpeg);
+}
+.f8{
+    background-image: url(../PIC/christ\ the\ Redeemer.jpeg);
+}
+.f9{
+    background-image: url(../PIC/Sydney\ Opera\ House.jpeg);
+}
+.f10{
+    background-image: url(../PIC/Taj\ Mahal.jpg);
+}
+.f11{
+    background-image: url(../PIC/The\ Acropolis.jpg);
+}
+.f12{
+    background-image: url(../PIC/Angkor\ Wat.jpg);
+}
+.item:hover{
+    transform: rotateY(180deg);
+}
+.back{
+    transform: rotateY(180deg);
+}
